@@ -4,4 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-smartstring = "1.0.1"
+insta = { version = "1.28.0", features = ["json"] }
+juniper = "0.15.11"
+tokio = { version = "1.25.0", features = ["macros", "rt"] }
